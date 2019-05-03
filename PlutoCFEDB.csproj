@@ -62,6 +62,18 @@
     <Compile Include="Migrations\201905032120427_AddCategoriesTable.Designer.cs">
       <DependentUpon>201905032120427_AddCategoriesTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201905032140406_AddCategoryColumnsToCoursesTables.cs" />
+    <Compile Include="Migrations\201905032140406_AddCategoryColumnsToCoursesTables.Designer.cs">
+      <DependentUpon>201905032140406_AddCategoryColumnsToCoursesTables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905032155598_RenamedCourse_TitleToName.cs" />
+    <Compile Include="Migrations\201905032155598_RenamedCourse_TitleToName.Designer.cs">
+      <DependentUpon>201905032155598_RenamedCourse_TitleToName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905032200034_DeletedTimePublishedFromCourse.cs" />
+    <Compile Include="Migrations\201905032200034_DeletedTimePublishedFromCourse.Designer.cs">
+      <DependentUpon>201905032200034_DeletedTimePublishedFromCourse.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PlutoContext.cs" />
     <Compile Include="Program.cs" />
@@ -78,6 +90,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201905032120427_AddCategoriesTable.resx">
       <DependentUpon>201905032120427_AddCategoriesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905032140406_AddCategoryColumnsToCoursesTables.resx">
+      <DependentUpon>201905032140406_AddCategoryColumnsToCoursesTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905032155598_RenamedCourse_TitleToName.resx">
+      <DependentUpon>201905032155598_RenamedCourse_TitleToName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905032200034_DeletedTimePublishedFromCourse.resx">
+      <DependentUpon>201905032200034_DeletedTimePublishedFromCourse.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
